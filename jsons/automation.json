@@ -115,7 +115,9 @@
                             ["SET", "/groupById/$TARGET.activeBlueGroupId/combatStat", "pathCombat"],
                             ["SET", "/groupById/$TARGET.activeRedGroupId/combatStat", "pathCombat"],
                             ["SET", "/groupById/$TARGET.activeBlueGroupId/combatToken", "pathBlue"],
-                            ["SET", "/groupById/$TARGET.activeRedGroupId/combatToken", "pathRed"]
+                            ["SET", "/groupById/$TARGET.activeRedGroupId/combatToken", "pathRed"],
+                            ["SET", "/groubById/$TARGET.activeLocation/combatToken", "pathBlue"],
+                            ["SET", "/groupById/$TARGET.activeLocation/combatToken", "pathRed"]
                         ],
                         ["TRUE"],
                         ["LOG_DEV", "$TARGET.parentCards"]
