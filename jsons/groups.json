@@ -346,7 +346,7 @@
             "color": "blue",
             "onCardEnter": {
                 "locationIndex": 1,
-                "locationGroupId": "sharedActiveLocationPath"
+                "locationGroupId": "sharedActivePath"
             },
             "onCardLeave": {
                 "locationIndex": null,
